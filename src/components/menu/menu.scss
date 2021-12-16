@@ -1,7 +1,7 @@
 .menu {
   background-color: white;
   position: fixed;
-  right: -20rem;
+  right: -21rem;
   top: 80px;
   width: 20rem;
   height: 10rem;
@@ -10,9 +10,10 @@
   overflow: hidden;
   border-radius: 25px;
   transition: all 2s ease;
+  border: solid black 0.1px;
 
   &.active {
-    right: 0;
+    right: 1rem;
   }
   div:hover {
     cursor: pointer;
