@@ -1,2 +1,23 @@
 .intro {
+  display: flex;
+  background-color: aqua;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+    position: absolute;
+    left: 35rem;
+    top: 10rem;
+    width: 80rem;
+    z-index: 0;
+    h1 {
+      color: darkblue;
+      font-size: 5rem;
+      margin-top: 5rem;
+      margin-left: 20px;
+    }
+  }
 }
